@@ -192,7 +192,7 @@ public class DGEventHandler implements Listener
                 Location location = entity.getLocation();
                 if(location.getBlock().getRelative(BlockFace.DOWN).getType() == Material.NETHER_BRICK)
                 {
-                    event.getDrops().add(new ItemStack(Material.NETHER_SPROUTS));
+                    event.getDrops().add(new ItemStack(Material.NETHER_WART));
                 }
             }
         }
